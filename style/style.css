@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Quicksand;
+  src: url("fonts/Quicksand.ttf");
+}
+
+body {
+  background-color: #f8fbfa;
+  font-family: "Quicksand", sans-serif;
+}
+
+/*Index*/
+
+#title {
+  color: red;
+}
+
+.description {
+  padding-left: 25px;
+}
+
+.icone {
+  background-position: center left 10px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+  padding-left: 35px;
+}
+
+.icone-option {
+  background-image: url("../img/option.png");
+  background-size: 15px auto !important;
+  background-position: center left 10px !important;
+}
+
+.signin {
+  width: 150px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.title-logo {
+  font-family: sans-serif;
+  color: rgb(70, 70, 70);
+  font-size: 18px;
+}
+
+.register {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+}
+
+.hide {
+  display: block;
+}
+
+.no-hide {
+  display: none;
+}
+
+#in-upper {
+  text-transform:uppercase
+}
+
+.backgroud-gray{
+  background-color: #ccc;
+}
